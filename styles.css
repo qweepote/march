@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-image: url('bg.webp'); /* Replace 'background.webp' with your image path */
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header, footer {
+    background-color: #ff69b4;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#photos {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.photo-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo-gallery img {
+    width: 200px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
